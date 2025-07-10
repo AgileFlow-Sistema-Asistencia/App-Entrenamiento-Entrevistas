@@ -1,5 +1,5 @@
 import { ObjectType, Field } from "type-graphql";
-import { UserType } from "../user/user.type";
+import { UserType } from "../users/user/user.type";
 
 @ObjectType()
 export class AuthResponse {

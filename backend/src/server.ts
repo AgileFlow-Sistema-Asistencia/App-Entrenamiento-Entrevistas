@@ -4,7 +4,7 @@ import { ApolloServer } from 'apollo-server-express';
 import { buildSchema, AuthChecker } from 'type-graphql';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db';
-import { UserResolver } from './modules/user/user.resolver';
+import { UserResolver } from './modules/users/user/user.resolver';
 import { MyContext } from './types/context';
 
 dotenv.config();
